@@ -1,0 +1,130 @@
+/* deno-fmt-ignore */
+@catppuccin: {
+  @latte:     { @rosewater: #c4e0ff; @flamingo: #9db3cc; @pink: #9514ff; @mauve: #7900eb; @red: #eb0000; @maroon: #ff1414; @peach: #ff9f14; @yellow: #eb8700; @green: #00eb07; @teal: #00beeb; @sky: #14d2ff; @sapphire: #147eff; @blue: #006ceb; @lavender: #9aa5ce; @text: #c4e0ff; @subtext1: #9db3cc; @subtext0: #9aa5ce; @overlay2: #768699; @overlay1: #768699; @overlay0: #4f565f; @surface2: #4f565f; @surface1: #3b434d; @surface0: #2f2f2f; @base: #181818; @mantle: #161616; @crust: #2d2d2d; };
+  @frappe:    { @rosewater: #c4e0ff; @flamingo: #9db3cc; @pink: #9514ff; @mauve: #7900eb; @red: #eb0000; @maroon: #ff1414; @peach: #ff9f14; @yellow: #eb8700; @green: #00eb07; @teal: #00beeb; @sky: #14d2ff; @sapphire: #147eff; @blue: #006ceb; @lavender: #9aa5ce; @text: #c4e0ff; @subtext1: #9db3cc; @subtext0: #9aa5ce; @overlay2: #768699; @overlay1: #768699; @overlay0: #4f565f; @surface2: #4f565f; @surface1: #3b434d; @surface0: #2f2f2f; @base: #181818; @mantle: #161616; @crust: #2d2d2d; };
+  @macchiato: { @rosewater: #c4e0ff; @flamingo: #9db3cc; @pink: #9514ff; @mauve: #7900eb; @red: #eb0000; @maroon: #ff1414; @peach: #ff9f14; @yellow: #eb8700; @green: #00eb07; @teal: #00beeb; @sky: #14d2ff; @sapphire: #147eff; @blue: #006ceb; @lavender: #9aa5ce; @text: #c4e0ff; @subtext1: #9db3cc; @subtext0: #9aa5ce; @overlay2: #768699; @overlay1: #768699; @overlay0: #4f565f; @surface2: #4f565f; @surface1: #3b434d; @surface0: #2f2f2f; @base: #181818; @mantle: #161616; @crust: #2d2d2d; };
+  @mocha:     { @rosewater: #c4e0ff; @flamingo: #9db3cc; @pink: #9514ff; @mauve: #7900eb; @red: #eb0000; @maroon: #ff1414; @peach: #ff9f14; @yellow: #eb8700; @green: #00eb07; @teal: #00beeb; @sky: #14d2ff; @sapphire: #147eff; @blue: #006ceb; @lavender: #9aa5ce; @text: #c4e0ff; @subtext1: #9db3cc; @subtext0: #9aa5ce; @overlay2: #768699; @overlay1: #768699; @overlay0: #4f565f; @surface2: #4f565f; @surface1: #3b434d; @surface0: #2f2f2f; @base: #181818; @mantle: #161616; @crust: #2d2d2d; };
+};
+
+/* deno-fmt-ignore */
+@catppuccin-filters: {
+  @latte: { @rosewater: none; @flamingo: none; @pink: none; @mauve: none; @red: none; @maroon: none; @peach: none; @yellow: none; @green: none; @teal: none; @sky: none; @sapphire: none; @blue: none; @lavender: none; @text: none; @subtext1: none; @subtext0: none; @overlay2: none; @overlay1: none; @overlay0: none; @surface2: none; @surface1: none; @surface0: none; @base: none; @mantle: none; @crust: none; };
+  @frappe: { @rosewater: none; @flamingo: none; @pink: none; @mauve: none; @red: none; @maroon: none; @peach: none; @yellow: none; @green: none; @teal: none; @sky: none; @sapphire: none; @blue: none; @lavender: none; @text: none; @subtext1: none; @subtext0: none; @overlay2: none; @overlay1: none; @overlay0: none; @surface2: none; @surface1: none; @surface0: none; @base: none; @mantle: none; @crust: none; };
+  @macchiato: { @rosewater: none; @flamingo: none; @pink: none; @mauve: none; @red: none; @maroon: none; @peach: none; @yellow: none; @green: none; @teal: none; @sky: none; @sapphire: none; @blue: none; @lavender: none; @text: none; @subtext1: none; @subtext0: none; @overlay2: none; @overlay1: none; @overlay0: none; @surface2: none; @surface1: none; @surface0: none; @base: none; @mantle: none; @crust: none; };
+  @mocha: { @rosewater: none; @flamingo: none; @pink: none; @mauve: none; @red: none; @maroon: none; @peach: none; @yellow: none; @green: none; @teal: none; @sky: none; @sapphire: none; @blue: none; @lavender: none; @text: none; @subtext1: none; @subtext0: none; @overlay2: none; @overlay1: none; @overlay0: none; @surface2: none; @surface1: none; @surface0: none; @base: none; @mantle: none; @crust: none; };
+};
+
+#lib {
+  .palette() {
+    @rosewater: @catppuccin[@@flavor][@rosewater];
+    @flamingo: @catppuccin[@@flavor][@flamingo];
+    @pink: @catppuccin[@@flavor][@pink];
+    @mauve: @catppuccin[@@flavor][@mauve];
+    @red: @catppuccin[@@flavor][@red];
+    @maroon: @catppuccin[@@flavor][@maroon];
+    @peach: @catppuccin[@@flavor][@peach];
+    @yellow: @catppuccin[@@flavor][@yellow];
+    @green: @catppuccin[@@flavor][@green];
+    @teal: @catppuccin[@@flavor][@teal];
+    @sky: @catppuccin[@@flavor][@sky];
+    @sapphire: @catppuccin[@@flavor][@sapphire];
+    @blue: @catppuccin[@@flavor][@blue];
+    @lavender: @catppuccin[@@flavor][@lavender];
+    @text: @catppuccin[@@flavor][@text];
+    @subtext1: @catppuccin[@@flavor][@subtext1];
+    @subtext0: @catppuccin[@@flavor][@subtext0];
+    @overlay2: @catppuccin[@@flavor][@overlay2];
+    @overlay1: @catppuccin[@@flavor][@overlay1];
+    @overlay0: @catppuccin[@@flavor][@overlay0];
+    @surface2: @catppuccin[@@flavor][@surface2];
+    @surface1: @catppuccin[@@flavor][@surface1];
+    @surface0: @catppuccin[@@flavor][@surface0];
+    @base: @catppuccin[@@flavor][@base];
+    @mantle: @catppuccin[@@flavor][@mantle];
+    @crust: @catppuccin[@@flavor][@crust];
+    @accent: @catppuccin[@@flavor][@@accentColor];
+
+    @rosewater-filter: @catppuccin-filters[@@flavor][@rosewater];
+    @flamingo-filter: @catppuccin-filters[@@flavor][@flamingo];
+    @pink-filter: @catppuccin-filters[@@flavor][@pink];
+    @mauve-filter: @catppuccin-filters[@@flavor][@mauve];
+    @red-filter: @catppuccin-filters[@@flavor][@red];
+    @maroon-filter: @catppuccin-filters[@@flavor][@maroon];
+    @peach-filter: @catppuccin-filters[@@flavor][@peach];
+    @yellow-filter: @catppuccin-filters[@@flavor][@yellow];
+    @green-filter: @catppuccin-filters[@@flavor][@green];
+    @teal-filter: @catppuccin-filters[@@flavor][@teal];
+    @sky-filter: @catppuccin-filters[@@flavor][@sky];
+    @sapphire-filter: @catppuccin-filters[@@flavor][@sapphire];
+    @blue-filter: @catppuccin-filters[@@flavor][@blue];
+    @lavender-filter: @catppuccin-filters[@@flavor][@lavender];
+    @text-filter: @catppuccin-filters[@@flavor][@text];
+    @subtext1-filter: @catppuccin-filters[@@flavor][@subtext1];
+    @subtext0-filter: @catppuccin-filters[@@flavor][@subtext0];
+    @overlay2-filter: @catppuccin-filters[@@flavor][@overlay2];
+    @overlay1-filter: @catppuccin-filters[@@flavor][@overlay1];
+    @overlay0-filter: @catppuccin-filters[@@flavor][@overlay0];
+    @surface2-filter: @catppuccin-filters[@@flavor][@surface2];
+    @surface1-filter: @catppuccin-filters[@@flavor][@surface1];
+    @surface0-filter: @catppuccin-filters[@@flavor][@surface0];
+    @base-filter: @catppuccin-filters[@@flavor][@base];
+    @mantle-filter: @catppuccin-filters[@@flavor][@mantle];
+    @crust-filter: @catppuccin-filters[@@flavor][@crust];
+    @accent-filter: @catppuccin-filters[@@flavor][@@accentColor];
+  }
+
+  .defaults() {
+    color-scheme: dark;
+
+    ::selection {
+      background-color: fade(@accent, 30%);
+    }
+
+    input,
+    textarea {
+      &::placeholder {
+        color: @subtext0 !important;
+      }
+    }
+  }
+
+  .rgbify(@color) {
+    @rgb: red(@color), green(@color), blue(@color);
+  }
+
+  .hslify(@color) {
+    @raw: e(
+      %("%s, %s%, %s%", hue(@color), saturation(@color), lightness(@color))
+    );
+  }
+
+  .css-variables() {
+    --ctp-rosewater: @rosewater;
+    --ctp-flamingo: @flamingo;
+    --ctp-pink: @pink;
+    --ctp-mauve: @mauve;
+    --ctp-red: @red;
+    --ctp-maroon: @maroon;
+    --ctp-peach: @peach;
+    --ctp-yellow: @yellow;
+    --ctp-green: @green;
+    --ctp-teal: @teal;
+    --ctp-sky: @sky;
+    --ctp-sapphire: @sapphire;
+    --ctp-blue: @blue;
+    --ctp-lavender: @lavender;
+    --ctp-text: @text;
+    --ctp-subtext1: @subtext1;
+    --ctp-subtext0: @subtext0;
+    --ctp-overlay2: @overlay2;
+    --ctp-overlay1: @overlay1;
+    --ctp-overlay0: @overlay0;
+    --ctp-surface2: @surface2;
+    --ctp-surface1: @surface1;
+    --ctp-surface0: @surface0;
+    --ctp-base: @base;
+    --ctp-mantle: @mantle;
+    --ctp-crust: @crust;
+    --ctp-accent: @accent;
+  }
+}
